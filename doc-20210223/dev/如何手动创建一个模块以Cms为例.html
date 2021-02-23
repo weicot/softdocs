@@ -1,0 +1,1303 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>如何手动创建一个模块以Cms为例 · 易定制供应链服务系统</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="ajing">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="框架的前端模板开发和切换.html" />
+    
+    
+    <link rel="prev" href="框架的目录结构说明.html" />
+    
+
+    </head>
+    <body>
+        
+
+
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			<li>
+				<a href="/" target="">首页</a>
+			</li><li>
+				<a href=" /doc/about/index.html" target="">关于我们</a>
+			</li><li>
+				<a href="/doc/product/index.html" target="">提供的产品</a>
+			</li><li>
+				<a href="/doc/service/index.html" target="">定制开发和服务</a>
+			</li><li>
+				<a href="/doc/help/index.html" target="">快速帮助文档</a>
+			</li><li>
+				<a href="/doc/edzdoc/index.html" target="">使用手册</a>
+			</li><li>
+				<a href=" /doc/dev/index.html" target="">开发指导手册</a>
+			</li><li>
+				<a href="http://www.weicot.com/" target="_blank">作者博客</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    WeiCot Framework 快速开发教程 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">快速入门</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="http://www.weicot.com/centos7mysqlmariadbsendmailnginxphp-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba%e4%b8%80%e6%9d%a1%e9%be%99/">
+            
+                    
+                    服务器环境搭建教程(站外)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="框架的nginx或Apache规则配置文件.html">
+            
+                <a href="框架的nginx或Apache规则配置文件.html">
+            
+                    
+                    框架的nginx或Apache规则配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="基础配置文件说明.html">
+            
+                <a href="基础配置文件说明.html">
+            
+                    
+                    基础配置文件说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="框架的目录结构说明.html">
+            
+                <a href="框架的目录结构说明.html">
+            
+                    
+                    框架的目录结构说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5" data-path="如何手动创建一个模块以Cms为例.html">
+            
+                <a href="如何手动创建一个模块以Cms为例.html">
+            
+                    
+                    如何手动创建一个模块以Cms为例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="框架的前端模板开发和切换.html">
+            
+                <a href="框架的前端模板开发和切换.html">
+            
+                    
+                    框架的前端模板开发和切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="一些Class和Function说明.html">
+            
+                <a href="一些Class和Function说明.html">
+            
+                    
+                    一些Class和Function说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >如何手动创建一个模块以Cms为例</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="如何手动创建一个模块以cms为例">如何手动创建一个模块以Cms为例</h1>
+<h4 id="也支持通过命令行快速自动生成模块并加载以及生成读写查询代码">也支持通过命令行快速自动生成模块并加载以及生成读写查询代码</h4>
+<h5 id="weicot-framework--快速开发教程--wwwweicotcom">WeiCot Framework  快速开发教程 -www.weicot.com</h5>
+<h3 id="基本开发规范">基本开发规范</h3>
+<ul>
+<li>1.命名空间 开头必需大写  namespace  Weicot\Core\Controller</li>
+<li>2.类名开头大写 用驼峰法命名 class  BaseExample{}</li>
+<li>3.应用/模块开头必需大写 /Core</li>
+<li>4.函数 开头小写  public function getPage()</li>
+<li>6.以双下划线“<strong>”打头的函数或方法作为魔法方法，例如 </strong>call 和 __autoload；</li>
+<li><p>7.建议每个模块写出详细的说明文档 日期，作者，功能，返回类型</p>
+<h3 id="1在-composerjson-中新增加一条">1.在 composer.json 中新增加一条</h3>
+<pre><code class="lang-json"><span class="hljs-string">&quot;autoload&quot;</span>: {
+     <span class="hljs-string">&quot;psr-4&quot;</span>: {
+       <span class="hljs-string">&quot;Weicot\\Cms\\Block\\&quot;</span>: <span class="hljs-string">&quot;app/code/Cms/Block&quot;</span>,
+       <span class="hljs-string">&quot;Weicot\\Cms\\Controller\\&quot;</span>: <span class="hljs-string">&quot;app/code/Cms/Controller&quot;</span>,
+       <span class="hljs-string">&quot;Weicot\\Cms\\Data\\&quot;</span>: <span class="hljs-string">&quot;app/code/Cms/Data&quot;</span>,
+       <span class="hljs-string">&quot;Weicot\\Cms\\Model\\&quot;</span>: <span class="hljs-string">&quot;app/code/Cms/Model&quot;</span>,
+</code></pre>
+</li>
+</ul>
+<h3 id="2在当前目录下执行">2.在当前目录下执行</h3>
+<pre><code class="lang-php"> php composer.phar dump-autoload
+</code></pre>
+<h3 id="3后在-appcode下创建相应的模块目录结构">3.后在 app/code/下创建相应的模块目录结构</h3>
+<ul>
+<li>app/code/Cms/Block</li>
+<li>app/code/Cms/Controller</li>
+<li>app/code/Cms/Data</li>
+<li>app/code/Cms/Model</li>
+<li>app/code/Cms/View<h3 id="4新增加表">4.新增加表</h3>
+</li>
+<li>1.直接在数据库中新增加</li>
+</ul>
+<pre><code class="lang-sql"> <span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`cms`</span>
+ (
+     <span class="hljs-keyword">id</span>          <span class="hljs-built_in">int</span> <span class="hljs-keyword">unsigned</span> auto_increment
+         primary <span class="hljs-keyword">key</span>,
+     user_id     <span class="hljs-built_in">int</span>(<span class="hljs-number">10</span>)                     <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;创建的用户id&apos;</span>,
+     title       <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>)     <span class="hljs-keyword">default</span> <span class="hljs-string">&apos;&apos;</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;标题&apos;</span>,
+     description longtext                    <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;内容&apos;</span>,
+     <span class="hljs-keyword">status</span>      tinyint <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">default</span> <span class="hljs-number">1</span>  <span class="hljs-keyword">not</span> <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;状态  1显示  2隐藏&apos;</span>,
+     created     <span class="hljs-built_in">int</span>              <span class="hljs-keyword">default</span> <span class="hljs-number">0</span>  <span class="hljs-keyword">not</span> <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;创建时间&apos;</span>,
+     <span class="hljs-keyword">updated</span>     <span class="hljs-built_in">int</span>              <span class="hljs-keyword">default</span> <span class="hljs-number">0</span>  <span class="hljs-keyword">not</span> <span class="hljs-literal">null</span> <span class="hljs-keyword">comment</span> <span class="hljs-string">&apos;更新时间&apos;</span>
+
+ ) <span class="hljs-keyword">ENGINE</span> = <span class="hljs-keyword">InnoDB</span>
+   <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CHARSET</span> = utf8 <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;cms 表&apos;</span>;
+</code></pre>
+<ul>
+<li>2.或者在app/code/Cms/Data 目录下通过创建 Install.php 类新增加 </li>
+</ul>
+<h3 id="5在-appcodecmscontroller中创建控制器">5.在 app/code/Cms/Controller中创建控制器</h3>
+<ul>
+<li><p>app\code\Cms\Controller\Content.php</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Cms</span>\<span class="hljs-title">Controller</span>;
+
+<span class="hljs-keyword">use</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Core</span>\<span class="hljs-title">Controller</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Content</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span>
+</span>{
+
+   <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">index</span><span class="hljs-params">()</span>
+   </span>{
+       <span class="hljs-keyword">parent</span>::index(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+   }
+
+}
+</code></pre>
+<p>以上步骤完成后 
+打开浏览器<a href="http://www" target="_blank">http://www</a>.&lt;你的IP地址&gt;.com/cms/content你会发现是一个空白页面. </p>
+</li>
+</ul>
+<h3 id="6下面我们来为其引入前端布局以及页面">6.下面我们来为其引入前端布局以及页面</h3>
+<ul>
+<li>1.创建一个空的 Block  以及一个空的模板文件<blockquote>
+<p>app\app\code\Cms\Block\Common.php</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Cms</span>\<span class="hljs-title">Block</span>;
+
+<span class="hljs-keyword">use</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Core</span>\<span class="hljs-title">Block</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Common</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Block</span>
+</span>{
+
+
+}
+</code></pre>
+<ul>
+<li><p>2.模板文件</p>
+<blockquote>
+<p>app\code\Cms\View\Content\index.phtml
+在模板中添加这一段文字  &lt;这个 模板文件输出</p>
+</blockquote>
+</li>
+<li><p>3.在控制器中引入布局</p>
+<blockquote>
+<p>app\code\Cms\Controller\Content.php  </p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-php">     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">index</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-comment">/***
+          * 此方法 支持数据传递  支持添加多个模板 支持添加 js 或 CSS 文件等
+          */</span>
+         $this-&gt;setView()-&gt;addTemplate(
+             <span class="hljs-keyword">array</span>(
+                 <span class="hljs-string">&quot;blockName&quot;</span> =&gt; <span class="hljs-string">&quot;Cms.Common&quot;</span>,
+                 <span class="hljs-string">&quot;templatePath&quot;</span> =&gt; <span class="hljs-string">&quot;Cms/View/Content/index&quot;</span>,
+             )
+         )-&gt;setLayout()-&gt;toHtml();
+     }
+</code></pre>
+<p>添加完成后 我们可以看到  这个控制器下面的模板文件输出<br><img src="gimage/01.png" alt="输出示例" title="weicot">  </p>
+<blockquote>
+<p>想要直接显示   block  与模板（template）的引用关系 可以直接 在配置文件( app\app\etc\Config.php)中开启 debug 下的  show_path即可</p>
+</blockquote>
+<pre><code class="lang-php">    <span class="hljs-string">&quot;debug&quot;</span> =&gt; [
+          <span class="hljs-string">&apos;display_errors&apos;</span> =&gt; <span class="hljs-keyword">true</span>,  <span class="hljs-comment">//显示错误信息</span>
+          <span class="hljs-string">&apos;show_path&apos;</span> =&gt; <span class="hljs-keyword">false</span>,<span class="hljs-comment">//是否 显示Controller地址地址及类名  显示Block地址及类名 显示Template地址及类名  false</span>
+          <span class="hljs-string">&apos;design_tools&apos;</span> =&gt; <span class="hljs-keyword">false</span>,  <span class="hljs-comment">//设计工具是否开启 debug</span>
+      ],
+</code></pre>
+<blockquote>
+<p>效果如下 
+ <img src="gimage/02.png" alt="输出示例" title="weicot"> </p>
+</blockquote>
+<h3 id="7创建model">7.创建model</h3>
+<blockquote>
+<p>app\code\Cms\Model\Content.php</p>
+</blockquote>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+ <span class="hljs-keyword">namespace</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Cms</span>\<span class="hljs-title">Model</span>;
+
+ <span class="hljs-keyword">use</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Coer</span>\<span class="hljs-title">Model</span>;
+
+ <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Content</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Model</span>
+ </span>{
+     <span class="hljs-keyword">public</span> $table = <span class="hljs-string">&apos;cms&apos;</span>;
+     <span class="hljs-keyword">public</span> $field = [<span class="hljs-string">&apos;id&apos;</span>, <span class="hljs-string">&apos;user_id&apos;</span>, <span class="hljs-string">&apos;title&apos;</span>, <span class="hljs-string">&apos;description&apos;</span>, <span class="hljs-string">&apos;status&apos;</span>, <span class="hljs-string">&apos;created&apos;</span>, <span class="hljs-string">&apos;updated&apos;</span>];
+     <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> $status = [
+         <span class="hljs-number">1</span> =&gt; <span class="hljs-string">&quot;显示&quot;</span>,
+         <span class="hljs-number">2</span> =&gt; <span class="hljs-string">&quot;隐藏&quot;</span>,
+     ];
+
+ }
+</code></pre>
+<h3 id="8现在我们来创建读写查询页面">8.现在我们来创建读写查询页面</h3>
+<ul>
+<li>1.在模板文件中增加如下内容</li>
+</ul>
+<pre><code class="lang-html"><span class="php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-keyword">use</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Customer</span>\<span class="hljs-title">Model</span>\<span class="hljs-title">Session</span>;
+
+$block-&gt;usePackageJs(<span class="hljs-string">&quot;layui/common&quot;</span>);
+<span class="hljs-meta">?&gt;</span></span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.layui-input-block</span><span class="hljs-selector-class">.options-box-group-child</span> {
+            <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+        layui.use([<span class="hljs-string">&apos;element&apos;</span>, <span class="hljs-string">&apos;layer&apos;</span>], <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+            <span class="hljs-keyword">var</span> element = layui.element;
+            <span class="hljs-keyword">var</span> layer = layui.layer;
+            element.on(<span class="hljs-string">&apos;collapse(z_search)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(data)</span> </span>{
+            });
+        });
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;x-body&quot;</span>&gt;</span>
+        <span class="hljs-comment">&lt;!--搜索--&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-collapse&quot;</span> <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;z_search&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-colla-item&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-colla-title&quot;</span>&gt;</span>高级筛选<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-colla-content layui-show&quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-row&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form layui-col-md12 x-so&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_search&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+
+
+                                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-inline&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>状态<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                                        <span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> $block-&gt;eachSelect(\Weicot\Cms\Model\Content::$status, <span class="hljs-string">&apos;status&apos;</span>, <span class="hljs-keyword">true</span>, <span class="hljs-number">1</span>); <span class="hljs-meta">?&gt;</span></span>
+                                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+
+                                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-inline&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>标题<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                                        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;title&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;title&quot;</span>
+                                               <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;标题&quot;</span>
+                                               <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-inline&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                                        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;description&quot;</span>
+                                               <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;描述&quot;</span>
+                                               <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+
+                                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-inline&quot;</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-block&quot;</span>&gt;</span>
+                                        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;search&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn   layui-btn-sm layui-btn-normal &quot;</span>
+                                                <span class="hljs-attr">lay-submit</span>=<span class="hljs-string">&quot;&quot;</span>
+                                                <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;search&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span>
+                                                    <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-icon&quot;</span>&gt;</span>&amp;#xe615;<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-bg-blue&quot;</span>&gt;</span>
+            双击表格可查看具体信息
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-hide&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_table&quot;</span> <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;zq_table&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+
+
+        <span class="hljs-comment">&lt;!--添加--&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-row&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_formpopbox&quot;</span>
+             <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;display:none;position: absolute; top: 0; left: 0; bottom: 0; right: 0;&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-col-md11&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_form&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form&quot;</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;margin-top: 20px;align:center;&quot;</span>&gt;</span>
+
+
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>状态<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> $block-&gt;eachSelect(\Weicot\Cms\Model\Content::$status, <span class="hljs-string">&apos;status&apos;</span>, <span class="hljs-keyword">true</span>, <span class="hljs-number">1</span>); <span class="hljs-meta">?&gt;</span></span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>标题<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;title&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;title&quot;</span>
+                                   <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;标题&quot;</span>
+                                   <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span>
+                                   <span class="hljs-attr">lay-verify</span>=<span class="hljs-string">&quot;required&quot;</span>
+                                   <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;description&quot;</span>
+                                   <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;描述&quot;</span>
+                                   <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span>
+                                   <span class="hljs-attr">lay-verify</span>=<span class="hljs-string">&quot;required&quot;</span>
+                                   <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-block&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn layui-btn-radius layui-btn-normal&quot;</span> <span class="hljs-attr">lay-submit</span>=<span class="hljs-string">&quot;&quot;</span>
+                                    <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;zq_submit&quot;</span>&gt;</span>
+                                确认
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;reset&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn layui-btn-radius layui-btn-primary&quot;</span>&gt;</span>重置<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+        <span class="hljs-comment">&lt;!--编辑--&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-row&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_edit_formpopbox&quot;</span>
+             <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;display:none;position: absolute;  top: 0; left: 0; bottom: 0; right: 0;&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-col-md11&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_edit_form&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form&quot;</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;margin-top: 20px;align:center;&quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;hidden&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;id&quot;</span>/&gt;</span>
+
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>状态<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> $block-&gt;eachSelect(\Weicot\Cms\Model\Content::$status, <span class="hljs-string">&apos;status&apos;</span>, <span class="hljs-keyword">true</span>, <span class="hljs-number">1</span>); <span class="hljs-meta">?&gt;</span></span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>标题<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;title&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;title&quot;</span>
+                                   <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;标题&quot;</span>
+                                   <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span>
+                                   <span class="hljs-attr">lay-verify</span>=<span class="hljs-string">&quot;required&quot;</span>
+                                   <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-label&quot;</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-inline&quot;</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;description&quot;</span>
+                                   <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;描述&quot;</span>
+                                   <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span>
+                                   <span class="hljs-attr">lay-verify</span>=<span class="hljs-string">&quot;required&quot;</span>
+                                   <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-form-item&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-input-block&quot;</span>&gt;</span>
+
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn layui-btn-radius layui-btn-normal&quot;</span> <span class="hljs-attr">lay-submit</span>=<span class="hljs-string">&quot;&quot;</span>
+                                    <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;zq_edit_submit&quot;</span>&gt;</span>
+                                确认
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-hide&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_table&quot;</span> <span class="hljs-attr">lay-filter</span>=<span class="hljs-string">&quot;zq_table&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_toolbar&quot;</span>&gt;</span><span class="handlebars"><span class="xml">
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn-container&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn layui-btn-sm&quot;</span> <span class="hljs-attr">lay-event</span>=<span class="hljs-string">&quot;add&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-icon&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>添加<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        </span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;zq_bar&quot;</span>&gt;</span><span class="handlebars"><span class="xml">
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn  layui-btn-normal layui-btn-xs&quot;</span> <span class="hljs-attr">lay-event</span>=<span class="hljs-string">&quot;edit&quot;</span>&gt;</span>编辑<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">if</span> (Session::isManage()) { <span class="hljs-meta">?&gt;</span></span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;layui-btn  layui-btn-normal layui-btn-xs&quot;</span> <span class="hljs-attr">lay-event</span>=<span class="hljs-string">&quot;del&quot;</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="php"><span class="hljs-meta">&lt;?php</span> } <span class="hljs-meta">?&gt;</span></span>
+        </span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+            <span class="hljs-keyword">var</span> config = {
+                <span class="hljs-string">&apos;version&apos;</span>:<span class="xml"><span class="php"><span class="hljs-meta">&lt;?php</span>  <span class="hljs-keyword">echo</span> __config(<span class="hljs-string">&apos;site&apos;</span>, <span class="hljs-string">&apos;layui_version&apos;</span>) <span class="hljs-meta">?&gt;</span></span> ,
+            };
+        </span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-comment">//echo $block-&gt;setJs(&quot;content&quot;, false, &apos;1596184778&apos;);</span>
+<span class="hljs-comment">//将固定数值改为动态的 防止缓存  当然你也可以直接把js 放到当前页面中这样就不用额外的引入js文件了</span>
+<span class="hljs-keyword">echo</span> $block-&gt;setJs(<span class="hljs-string">&quot;content&quot;</span>, <span class="hljs-keyword">false</span>, time());
+<span class="hljs-meta">?&gt;</span></span>
+</code></pre>
+<ul>
+<li>2.并创建相应的js文件   <blockquote>
+<p>app\skin\frontend\js\content.js</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-javascript">
+$(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    layui.config({
+        version: config.version
+    });
+    layui.use([<span class="hljs-string">&apos;table&apos;</span>, <span class="hljs-string">&apos;layer&apos;</span>, <span class="hljs-string">&apos;form&apos;</span>, <span class="hljs-string">&apos;laypage&apos;</span>, <span class="hljs-string">&apos;upload&apos;</span>, <span class="hljs-string">&apos;laydate&apos;</span>], <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> table = layui.table
+            , layer = layui.layer
+            , form = layui.form
+            , laypage = layui.laypage
+            , upload = layui.upload
+            , laydate = layui.laydate;
+
+
+        table.render({
+            elem: <span class="hljs-string">&apos;#zq_table&apos;</span>
+            , id: <span class="hljs-string">&apos;tableReload&apos;</span>
+            , url: <span class="hljs-string">&apos;/cms/content/page&apos;</span>
+            , toolbar: <span class="hljs-string">&apos;#zq_toolbar&apos;</span>
+            , title: <span class="hljs-string">&apos;模板&apos;</span>
+            , page: <span class="hljs-literal">true</span> <span class="hljs-comment">//开启分页</span>
+            , limit: <span class="hljs-number">20</span>
+            <span class="hljs-comment">// ,totalRow: true //开启合计行</span>
+            , cols: [[ <span class="hljs-comment">//表头</span>
+                {type: <span class="hljs-string">&apos;checkbox&apos;</span>, fixed: <span class="hljs-string">&apos;left&apos;</span>}
+                , {field: <span class="hljs-string">&apos;id&apos;</span>, title: <span class="hljs-string">&apos;ID&apos;</span>, width: <span class="hljs-number">80</span>, sort: <span class="hljs-literal">true</span>, fixed: <span class="hljs-string">&apos;left&apos;</span>, totalRowText: <span class="hljs-string">&apos;合计：&apos;</span>}
+                , {field: <span class="hljs-string">&apos;title&apos;</span>, width: <span class="hljs-number">100</span>, title: <span class="hljs-string">&apos;标题&apos;</span>,}
+                , {field: <span class="hljs-string">&apos;description&apos;</span>, title: <span class="hljs-string">&apos;描述&apos;</span>, sort: <span class="hljs-literal">true</span>, totalRow: <span class="hljs-literal">true</span>,}
+                , {field: <span class="hljs-string">&apos;status_name&apos;</span>, title: <span class="hljs-string">&apos;状态&apos;</span>, sort: <span class="hljs-literal">true</span>, totalRow: <span class="hljs-literal">true</span>,}
+                , {field: <span class="hljs-string">&apos;created&apos;</span>, title: <span class="hljs-string">&apos;创建时间&apos;</span>, sort: <span class="hljs-literal">true</span>, totalRow: <span class="hljs-literal">true</span>,}
+                , {field: <span class="hljs-string">&apos;updated&apos;</span>, title: <span class="hljs-string">&apos;更新时间&apos;</span>, sort: <span class="hljs-literal">true</span>, totalRow: <span class="hljs-literal">true</span>,}
+                , {fixed: <span class="hljs-string">&apos;right&apos;</span>, width: <span class="hljs-number">200</span>, align: <span class="hljs-string">&apos;center&apos;</span>, toolbar: <span class="hljs-string">&apos;#zq_bar&apos;</span>}
+            ]],
+            parseData: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">res</span>) </span>{
+                <span class="hljs-keyword">return</span> {
+                    code: res.status == <span class="hljs-literal">true</span> ? <span class="hljs-number">0</span> : <span class="hljs-number">1</span>,
+                    msg: res.mesg,
+                    count: res.data.count,
+                    data: res.data.list
+                }
+            },
+        });
+
+
+        table.on(<span class="hljs-string">&apos;toolbar(zq_table)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{
+            <span class="hljs-keyword">var</span> checkStatus = table.checkStatus(obj.config.id)
+                , data = checkStatus.data;
+            data = <span class="hljs-built_in">eval</span>(<span class="hljs-string">&quot;(&quot;</span> + <span class="hljs-built_in">JSON</span>.stringify(data) + <span class="hljs-string">&quot;)&quot;</span>);
+            <span class="hljs-keyword">switch</span> (obj.event) {
+                <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;add&apos;</span>:
+                    zq_form(<span class="hljs-string">&apos;添加菜单&apos;</span>, <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">&apos;700&apos;</span>, <span class="hljs-string">&apos;700&apos;</span>);
+                    $(<span class="hljs-string">&quot;#zq_form&quot;</span>).setForm({id: <span class="hljs-string">&apos;&apos;</span>});
+                    form.render();
+
+                    <span class="hljs-keyword">break</span>;
+            }
+        });
+
+
+        table.on(<span class="hljs-string">&apos;tool(zq_table)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{
+            <span class="hljs-keyword">var</span> data = obj.data
+                , layEvent = obj.event;
+            <span class="hljs-keyword">var</span> tr = obj.tr;
+            <span class="hljs-keyword">switch</span> (layEvent) {
+                <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;del&apos;</span>:
+                    layer.confirm(<span class="hljs-string">&apos;您确定删除id：&apos;</span> + data.id + <span class="hljs-string">&apos;的数据吗？&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">index</span>) </span>{
+
+                        $.post(<span class="hljs-string">&quot;/cms/content/del&quot;</span>, {id: data.id}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ret</span>) </span>{
+                            <span class="hljs-keyword">if</span> (ret.status) {
+                                layer.msg(ret.msg, {icon: <span class="hljs-number">1</span>, time: <span class="hljs-number">1500</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                                    obj.del();
+                                    layer.close(index);
+
+                                });
+                            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ret.status == <span class="hljs-literal">false</span>) {  <span class="hljs-comment">//删除失败</span>
+                                layer.alert(ret.msg, {icon: <span class="hljs-number">2</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                                    layer.close(index);
+
+                                    <span class="hljs-built_in">window</span>.location.reload();
+                                });
+                            }
+
+
+                        });
+                    });
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;edit&apos;</span>:
+                    zq_edit_form(<span class="hljs-string">&apos;编辑菜单&apos;</span>, <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-number">600</span>, <span class="hljs-number">600</span>);
+                    $(<span class="hljs-string">&quot;#zq_edit_form&quot;</span>).setForm(data);
+                    form.render();
+                    <span class="hljs-keyword">break</span>;
+            }
+        });
+
+
+        table.on(<span class="hljs-string">&apos;edit(zq_table)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{
+
+            <span class="hljs-keyword">var</span> value = obj.value
+                , data = obj.data
+                , did = obj.id
+                , field = obj.field; <span class="hljs-comment">//得到字段</span>
+
+
+            $.ajax({
+                type: <span class="hljs-string">&quot;post&quot;</span>,
+                url: <span class="hljs-string">&quot;/cms/content/quickEdit&quot;</span>,
+                data: {
+                    <span class="hljs-string">&apos;field&apos;</span>: field,
+                    <span class="hljs-string">&apos;value&apos;</span>: value,
+                    <span class="hljs-string">&apos;did&apos;</span>: did,
+                    <span class="hljs-string">&apos;row&apos;</span>: data,
+
+                },
+                dataType: <span class="hljs-string">&quot;json&quot;</span>,
+                success: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">msg</span>) </span>{
+                    <span class="hljs-keyword">if</span> (msg.status) {
+                        layer.msg(msg.msg, {icon: <span class="hljs-number">1</span>, time: <span class="hljs-number">1500</span>});
+                        table.reload(<span class="hljs-string">&apos;tableReload&apos;</span>);
+                        layer.close(index);
+                    } <span class="hljs-keyword">else</span> {
+                        layer.alert(msg.msg, {icon: <span class="hljs-number">2</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+                            layer.close(index);
+
+                        });
+                    }
+                }
+            });
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+
+            layer.msg(<span class="hljs-string">&apos;[ID: &apos;</span> + data.id + <span class="hljs-string">&apos;] &apos;</span> + field + <span class="hljs-string">&apos; 字段更改为：&apos;</span> + value);
+        });
+
+        form.on(<span class="hljs-string">&apos;submit(zq_submit)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+
+            <span class="hljs-keyword">var</span> formData = data.field;
+            $.ajax({
+                type: <span class="hljs-string">&quot;post&quot;</span>,
+                url: <span class="hljs-string">&quot;/cms/content/add&quot;</span>,
+                data: formData,
+                dataType: <span class="hljs-string">&quot;json&quot;</span>,
+                success: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">msg</span>) </span>{
+
+                    <span class="hljs-keyword">if</span> (msg.status) {
+                        layer.msg(msg.msg, {icon: <span class="hljs-number">1</span>, time: <span class="hljs-number">1500</span>});
+                        table.reload(<span class="hljs-string">&apos;tableReload&apos;</span>);
+                        layer.close(index);
+                    } <span class="hljs-keyword">else</span> {
+                        layer.alert(msg.msg, {icon: <span class="hljs-number">2</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+                            layer.close(index);
+
+                        });
+                    }
+                }
+            });
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+        });
+
+        table.on(<span class="hljs-string">&apos;rowDouble(zq_table)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{
+            <span class="hljs-keyword">var</span> data = obj.data;
+            layer.open({
+                type: <span class="hljs-number">2</span>,
+                title: <span class="hljs-string">&apos;查看&apos;</span>,
+                maxmin: <span class="hljs-literal">true</span>,
+                shadeClose: <span class="hljs-literal">true</span>,
+                area: [<span class="hljs-string">&apos;1200px&apos;</span>, <span class="hljs-string">&apos;900px&apos;</span>],
+                content: <span class="hljs-string">&apos;/cms/content/detail?id=&apos;</span> + data.id
+            });
+            obj.tr.addClass(<span class="hljs-string">&apos;layui-table-click&apos;</span>).siblings().removeClass(<span class="hljs-string">&apos;layui-table-click&apos;</span>);
+        });
+
+
+        form.on(<span class="hljs-string">&apos;submit(zq_edit_submit)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            <span class="hljs-keyword">var</span> formData = data.field;
+            $.ajax({
+                type: <span class="hljs-string">&quot;post&quot;</span>,
+                url: <span class="hljs-string">&quot;/cms/content/edit&quot;</span>,
+                data: formData,
+                dataType: <span class="hljs-string">&quot;json&quot;</span>,
+                success: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">msg</span>) </span>{
+                    <span class="hljs-keyword">if</span> (msg.status) {
+                        layer.msg(msg.msg, {icon: <span class="hljs-number">1</span>, time: <span class="hljs-number">1500</span>});
+                        table.reload(<span class="hljs-string">&apos;tableReload&apos;</span>);
+                        layer.close(index);
+                    } <span class="hljs-keyword">else</span> {
+                        layer.alert(msg.msg, {icon: <span class="hljs-number">2</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+                            layer.close(index);
+
+                        });
+                    }
+                }
+            });
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+        });
+
+
+        form.on(<span class="hljs-string">&apos;submit(search)&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            <span class="hljs-keyword">var</span> formData = data.field;
+            table.reload(<span class="hljs-string">&apos;tableReload&apos;</span>, {
+                page: {
+                    curr: <span class="hljs-number">1</span>
+                }
+                , where: formData
+                , url: <span class="hljs-string">&apos;/cms/content/page&apos;</span>
+                , method: <span class="hljs-string">&apos;post&apos;</span>
+            });
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+        });
+
+
+    });
+
+
+});
+
+
+<span class="hljs-keyword">var</span> index;
+
+<span class="hljs-comment">//表单弹出层</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">zq_edit_form</span>(<span class="hljs-params">title, url, w, h</span>) </span>{
+    <span class="hljs-keyword">if</span> (title == <span class="hljs-literal">null</span> || title == <span class="hljs-string">&apos;&apos;</span>) {
+        title = <span class="hljs-literal">false</span>;
+    }
+    ;
+    <span class="hljs-keyword">if</span> (url == <span class="hljs-literal">null</span> || url == <span class="hljs-string">&apos;&apos;</span>) {
+    }
+    ;<span class="hljs-comment">// url=&quot;404.html&quot;;</span>
+    <span class="hljs-keyword">if</span> (w == <span class="hljs-literal">null</span> || w == <span class="hljs-string">&apos;&apos;</span>) {
+        w = ($(<span class="hljs-built_in">window</span>).width() * <span class="hljs-number">0.9</span>);
+    }
+    ;
+    <span class="hljs-keyword">if</span> (h == <span class="hljs-literal">null</span> || h == <span class="hljs-string">&apos;&apos;</span>) {
+        h = ($(<span class="hljs-built_in">window</span>).height() - <span class="hljs-number">50</span>);
+    }
+    ;
+    index = layer.open({
+        type: <span class="hljs-number">1</span>,
+        title: title,
+
+        area: [w + <span class="hljs-string">&apos;px&apos;</span>, h + <span class="hljs-string">&apos;px&apos;</span>],
+        fix: <span class="hljs-literal">false</span>, <span class="hljs-comment">//不固定</span>
+        maxmin: <span class="hljs-literal">true</span>,
+        shadeClose: <span class="hljs-literal">true</span>,
+        shade: <span class="hljs-number">0.4</span>,<span class="hljs-comment">//背景灰度</span>
+        content: $(<span class="hljs-string">&quot;#zq_edit_formpopbox&quot;</span>).html()
+    });
+}
+
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">zq_detail_form</span>(<span class="hljs-params">title, url, w, h</span>) </span>{
+    <span class="hljs-keyword">if</span> (title == <span class="hljs-literal">null</span> || title == <span class="hljs-string">&apos;&apos;</span>) {
+        title = <span class="hljs-literal">false</span>;
+    }
+    ;
+    <span class="hljs-keyword">if</span> (url == <span class="hljs-literal">null</span> || url == <span class="hljs-string">&apos;&apos;</span>) {
+    }
+    ;<span class="hljs-comment">// url=&quot;404.html&quot;;</span>
+    <span class="hljs-keyword">if</span> (w == <span class="hljs-literal">null</span> || w == <span class="hljs-string">&apos;&apos;</span>) {
+        w = ($(<span class="hljs-built_in">window</span>).width() * <span class="hljs-number">0.9</span>);
+    }
+    ;
+    <span class="hljs-keyword">if</span> (h == <span class="hljs-literal">null</span> || h == <span class="hljs-string">&apos;&apos;</span>) {
+        h = ($(<span class="hljs-built_in">window</span>).height() - <span class="hljs-number">50</span>);
+    }
+    ;
+    index = layer.open({
+        type: <span class="hljs-number">1</span>,
+        title: title,
+
+        area: [w + <span class="hljs-string">&apos;px&apos;</span>, h + <span class="hljs-string">&apos;px&apos;</span>],
+        fix: <span class="hljs-literal">false</span>, <span class="hljs-comment">//不固定</span>
+        maxmin: <span class="hljs-literal">true</span>,
+        shadeClose: <span class="hljs-literal">true</span>,
+        shade: <span class="hljs-number">0.4</span>,<span class="hljs-comment">//背景灰度</span>
+        content: $(<span class="hljs-string">&quot;#zq_detail_formpopbox&quot;</span>).html()
+    });
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">zq_form</span>(<span class="hljs-params">title, url, w, h</span>) </span>{
+    <span class="hljs-keyword">if</span> (title == <span class="hljs-literal">null</span> || title == <span class="hljs-string">&apos;&apos;</span>) {
+        title = <span class="hljs-literal">false</span>;
+    }
+    ;
+    <span class="hljs-keyword">if</span> (url == <span class="hljs-literal">null</span> || url == <span class="hljs-string">&apos;&apos;</span>) {
+    }
+    ;<span class="hljs-comment">// url=&quot;404.html&quot;;</span>
+    <span class="hljs-keyword">if</span> (w == <span class="hljs-literal">null</span> || w == <span class="hljs-string">&apos;&apos;</span>) {
+        w = ($(<span class="hljs-built_in">window</span>).width() * <span class="hljs-number">0.9</span>);
+    }
+    ;
+    <span class="hljs-keyword">if</span> (h == <span class="hljs-literal">null</span> || h == <span class="hljs-string">&apos;&apos;</span>) {
+        h = ($(<span class="hljs-built_in">window</span>).height() - <span class="hljs-number">50</span>);
+    }
+    ;
+    index = layer.open({
+        type: <span class="hljs-number">1</span>,
+        title: title,
+
+        area: [w + <span class="hljs-string">&apos;px&apos;</span>, h + <span class="hljs-string">&apos;px&apos;</span>],
+        fix: <span class="hljs-literal">false</span>, <span class="hljs-comment">//不固定</span>
+        maxmin: <span class="hljs-literal">true</span>,
+        shadeClose: <span class="hljs-literal">true</span>,
+        shade: <span class="hljs-number">0.4</span>,<span class="hljs-comment">//背景灰度</span>
+        content: $(<span class="hljs-string">&quot;#zq_formpopbox&quot;</span>).html(),
+        yes: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">index, layero</span>) </span>{
+
+            <span class="hljs-comment">// uploadInst.reload();</span>
+        }
+    });
+
+
+}
+</code></pre>
+<p>做完以上两部后访问控制器你可以看到一个空白的页面
+<img src="gimage/03.png" alt="输出示例" title="weicot"> </p>
+<h3 id="9现在我们来实现读写查询的-action--函数">9.现在我们来实现读写查询的 action  函数</h3>
+<ul>
+<li>1.打开刚才创建的控制器类生成以下函数<blockquote>
+<p>app\code\Cms\Controller\Content.php</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+ <span class="hljs-keyword">namespace</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Cms</span>\<span class="hljs-title">Controller</span>;
+
+ <span class="hljs-keyword">use</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Core</span>\<span class="hljs-title">Controller</span>;
+
+ <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Content</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span>
+ </span>{
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">index</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-comment">/***
+          * 此方法 支持数据传递  支持添加多个模板 支持添加 js 或 CSS 文件等
+          */</span>
+         $this-&gt;setView()-&gt;addTemplate(
+             <span class="hljs-keyword">array</span>(
+                 <span class="hljs-string">&quot;blockName&quot;</span> =&gt; <span class="hljs-string">&quot;Cms.Common&quot;</span>,
+                 <span class="hljs-string">&quot;templatePath&quot;</span> =&gt; <span class="hljs-string">&quot;Cms/View/Content/index&quot;</span>,
+             )
+         )-&gt;setLayout()-&gt;toHtml();
+     }
+
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">page</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-keyword">parent</span>::page(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+     }
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">edit</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-keyword">parent</span>::edit(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+     }
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span><span class="hljs-params">()</span>
+     </span>{
+        <span class="hljs-keyword">parent</span>::del(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+     }
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">detail</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-keyword">parent</span>::detail(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+     }
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">quickEdit</span><span class="hljs-params">()</span>
+     </span>{
+         <span class="hljs-keyword">parent</span>::quickEdit(); <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Change the autogenerated stub</span>
+     }
+ }
+</code></pre>
+<ul>
+<li>2 现在我们开始来写翻页方法</li>
+</ul>
+<pre><code class="lang-php"> <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">page</span><span class="hljs-params">()</span>
+    </span>{
+        $filter = $this-&gt;post();
+        $query = Db::table($this-&gt;model-&gt;table)-&gt;field($this-&gt;model-&gt;field);
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>($filter[<span class="hljs-string">&apos;status&apos;</span>]) &amp;&amp; $filter[<span class="hljs-string">&apos;status&apos;</span>] != <span class="hljs-string">&apos;&apos;</span>) {
+            $query-&gt;where(<span class="hljs-string">&apos;status&apos;</span>, <span class="hljs-string">&apos;=&apos;</span>, $filter[<span class="hljs-string">&apos;status&apos;</span>]);
+        }
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>($filter[<span class="hljs-string">&apos;title&apos;</span>]) &amp;&amp; $filter[<span class="hljs-string">&apos;title&apos;</span>] != <span class="hljs-string">&apos;&apos;</span>) {
+            $query-&gt;where(<span class="hljs-string">&apos;title&apos;</span>, <span class="hljs-string">&apos;like&apos;</span>, <span class="hljs-string">&apos;%&apos;</span> . $filter[<span class="hljs-string">&apos;title&apos;</span>] . <span class="hljs-string">&apos;%&apos;</span>);
+        }
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>($filter[<span class="hljs-string">&apos;description&apos;</span>]) &amp;&amp; $filter[<span class="hljs-string">&apos;description&apos;</span>] != <span class="hljs-string">&apos;&apos;</span>) {
+            $query-&gt;where(<span class="hljs-string">&apos;description&apos;</span>, <span class="hljs-string">&apos;like&apos;</span>, <span class="hljs-string">&apos;%&apos;</span> . $filter[<span class="hljs-string">&apos;description&apos;</span>] . <span class="hljs-string">&apos;%&apos;</span>);
+        }
+        $count = $query-&gt;count();
+        $list = $query-&gt;page($this-&gt;getPage(), $this-&gt;getLimit())-&gt;order(<span class="hljs-string">&apos;id&apos;</span>, <span class="hljs-string">&apos;desc&apos;</span>)-&gt;select();
+        <span class="hljs-keyword">foreach</span> ($list <span class="hljs-keyword">as</span> &amp;$item) {
+            $item[<span class="hljs-string">&apos;created&apos;</span>] = $item[<span class="hljs-string">&apos;created&apos;</span>] &gt;= <span class="hljs-number">1</span> ? date(<span class="hljs-string">&quot;Y-m-d H:i:s&quot;</span>, $item[<span class="hljs-string">&apos;created&apos;</span>]) : <span class="hljs-string">&quot;&quot;</span>;
+            $item[<span class="hljs-string">&apos;updated&apos;</span>] = $item[<span class="hljs-string">&apos;updated&apos;</span>] &gt;= <span class="hljs-number">1</span> ? date(<span class="hljs-string">&quot;Y-m-d H:i:s&quot;</span>, $item[<span class="hljs-string">&apos;updated&apos;</span>]) : <span class="hljs-string">&quot;&quot;</span>;
+            $item[<span class="hljs-string">&apos;status_name&apos;</span>] = Help::getArrayValue(\Weicot\Cms\Model\Content::$status, $item[<span class="hljs-string">&apos;status&apos;</span>]);
+        }
+        $this-&gt;success(<span class="hljs-string">&apos;分页数据&apos;</span>, <span class="hljs-number">1111</span>, [
+            <span class="hljs-string">&apos;count&apos;</span> =&gt; $count,
+            <span class="hljs-string">&apos;list&apos;</span> =&gt; $list
+        ]);
+    }
+</code></pre>
+<ul>
+<li>3.我们现在开始来写添加方法</li>
+</ul>
+<pre><code class="lang-php">
+    <span class="hljs-comment">/***
+     * 添加函数
+     */</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span><span class="hljs-params">()</span>
+    </span>{
+        $data = $this-&gt;post();
+        <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">empty</span>($data)) {
+            <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>($data[<span class="hljs-string">&apos;title&apos;</span>]) &amp;&amp; <span class="hljs-keyword">isset</span>($data[<span class="hljs-string">&apos;description&apos;</span>]) &amp;&amp; !<span class="hljs-keyword">empty</span>($data[<span class="hljs-string">&apos;title&apos;</span>])) {
+                $save = Help::getFormatArrayData($data, $this-&gt;model-&gt;field, <span class="hljs-keyword">false</span>);
+                $save[<span class="hljs-string">&apos;created&apos;</span>] = time();
+                $save[<span class="hljs-string">&apos;updated&apos;</span>] = time();
+                Db::table($this-&gt;model-&gt;table)-&gt;insert($save);
+                $id = Db::getLastInsID();
+                <span class="hljs-keyword">if</span> ($id) {
+                    $this-&gt;success(<span class="hljs-string">&apos;添加成功&apos;</span>, <span class="hljs-number">1111</span>, [<span class="hljs-string">&apos;id&apos;</span> =&gt; $id]);
+                }
+                $this-&gt;error(<span class="hljs-string">&apos;添加失败&apos;</span>);
+            }
+        }
+        $this-&gt;error(<span class="hljs-string">&apos;提交数据不全&apos;</span>);
+    }
+</code></pre>
+<p> 做完这一步之后你可以尝试添加一次数据  添加成功后刷新页面  就可以看到您刚才添加的数据啦
+ <img src="gimage/04.png" alt="输出示例" title="weicot"> </p>
+<p> 现在我们写完了数据添加以及显示的 action 做编辑和删除的 action 啦
+ 继续在我们当前的控制器文件 写入以下代码</p>
+<ul>
+<li><p>4.增加编辑方法</p>
+<pre><code class="lang-php"> <span class="hljs-comment">/***
+  * 编辑函数
+  */</span>
+ <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">edit</span><span class="hljs-params">()</span>
+ </span>{
+     $data = $this-&gt;post();
+     <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">empty</span>($data)) {
+         <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>($data[<span class="hljs-string">&apos;id&apos;</span>]) &amp;&amp; <span class="hljs-keyword">isset</span>($data[<span class="hljs-string">&apos;title&apos;</span>]) &amp;&amp; !<span class="hljs-keyword">empty</span>($data[<span class="hljs-string">&apos;title&apos;</span>]) &amp;&amp; !<span class="hljs-keyword">empty</span>($data[<span class="hljs-string">&apos;id&apos;</span>])) {
+             $save = Help::getFormatArrayData($data, $this-&gt;model-&gt;field, <span class="hljs-keyword">false</span>);
+             $id = $save[<span class="hljs-string">&apos;id&apos;</span>];
+             <span class="hljs-keyword">unset</span>($save[<span class="hljs-string">&apos;id&apos;</span>]);
+             $save[<span class="hljs-string">&apos;updated&apos;</span>] = time();
+             <span class="hljs-keyword">if</span> (Db::table($this-&gt;model-&gt;table)-&gt;where(<span class="hljs-string">&apos;id&apos;</span>, <span class="hljs-string">&apos;=&apos;</span>, $id)-&gt;update($save)) {
+                 $this-&gt;success(<span class="hljs-string">&apos;修改成功&apos;</span>, <span class="hljs-number">1111</span>, [<span class="hljs-string">&apos;id&apos;</span> =&gt; $id]);
+             };
+             $this-&gt;error(<span class="hljs-string">&apos;修改失败&apos;</span>);
+         }
+     }
+     $this-&gt;error(<span class="hljs-string">&apos;提交数据不全&apos;</span>);
+ }
+</code></pre>
+</li>
+</ul>
+<ul>
+<li><ol>
+<li>然后是增加删除的方法</li>
+</ol>
+</li>
+</ul>
+<pre><code class="lang-php">
+    <span class="hljs-comment">/***
+     * 删除
+     * <span class="hljs-doctag">@throws</span> \think\Exception
+     * <span class="hljs-doctag">@throws</span> \think\db\exception\PDOException
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span><span class="hljs-params">()</span>
+    </span>{
+        $id = $this-&gt;post(<span class="hljs-string">&apos;id&apos;</span>);
+        <span class="hljs-keyword">if</span> ($id) {
+            $status = Db::table($this-&gt;model-&gt;table)
+                -&gt;where(<span class="hljs-string">&apos;id&apos;</span>, <span class="hljs-string">&apos;=&apos;</span>, $id)
+                -&gt;delete();
+            <span class="hljs-keyword">if</span> ($status) {
+                $this-&gt;success(<span class="hljs-string">&apos;删除成功&apos;</span>, <span class="hljs-number">1111</span>);
+            };
+        }
+
+        $this-&gt;error(<span class="hljs-string">&apos;删除失败&apos;</span>);
+    }
+</code></pre>
+<p>自此一个读写查询模块就完成啦
+ <img src="gimage/05.png" alt="输出示例" title="weicot"> </p>
+<h3 id="10-如何禁止未经登录的访问">10 如何禁止未经登录的访问</h3>
+<ul>
+<li>基础权限控制<blockquote>
+<p>app\code\Base\Model\AccessControl.php</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+   <span class="hljs-comment">/**
+    *@ lib\Core\AccessControl.php
+    */</span>
+
+   <span class="hljs-keyword">namespace</span> <span class="hljs-title">Weicot</span>\<span class="hljs-title">Base</span>\<span class="hljs-title">Model</span>;
+
+   <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AccessControl</span> <span class="hljs-keyword">extends</span> \<span class="hljs-title">Weicot</span>\<span class="hljs-title">Core</span>\<span class="hljs-title">AccessControl</span>
+   </span>{
+
+       <span class="hljs-comment">/***
+        * 不需要登录就可以进行访问的链接
+        * <span class="hljs-doctag">@return</span> array
+        */</span>
+       <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">noLoginRule</span><span class="hljs-params">()</span>
+       </span>{
+           <span class="hljs-keyword">return</span> [
+               <span class="hljs-string">&quot;customer&quot;</span> =&gt; [
+                   <span class="hljs-string">&quot;customer/login/index&quot;</span>,
+                   <span class="hljs-string">&quot;customer/login/create&quot;</span>,
+                   <span class="hljs-string">&quot;customer/action/login&quot;</span>,
+                   <span class="hljs-string">&quot;customer/action/create&quot;</span>,
+                   <span class="hljs-string">&quot;customer/action/ajaxLogin&quot;</span>,
+                   <span class="hljs-string">&quot;customer/action/ajaxCreate&quot;</span>
+               ],
+               <span class="hljs-string">&quot;base&quot;</span> =&gt; [
+                   <span class="hljs-string">&quot;base/home/captcha&quot;</span>,
+                   <span class="hljs-string">&quot;base/home/captchalogin&quot;</span>,
+                   <span class="hljs-string">&quot;base/home/about&quot;</span>,
+                   <span class="hljs-string">&quot;base/home/execute&quot;</span>,
+                   <span class="hljs-string">&quot;base/home/serviceClause&quot;</span>,
+                   <span class="hljs-string">&quot;base/home/copyrightStatement&quot;</span>
+               ],
+           ];
+       }
+   }
+</code></pre>
+<ul>
+<li>2 或者通过控制器 $noNeedLogin=[] 的方式进行设置 方法为 $noNeedLogin=[&apos;action1&apos;,&apos;action2&apos;] </li>
+</ul>
+<h3 id="11-快速指导">11 快速指导</h3>
+<ul>
+<li>1.App Name/Controller Name/Function Name             //路由 方法</li>
+<li>2.<a href="http://www.weicot.com/base/index/home" target="_blank">http://www.weicot.com/base/index/home</a>              //访问路径</li>
+<li>3.namespace Weicot\Base\Controller\Index::home;      //调用方法</li>
+<li>4.如果控制器不存在action 则执行默认的 execute 控制，其中默认的index最后也会被定向到execute函数</li>
+<li>5.注意在模块中 Class Name =File Nmae  类名=文件名 </li>
+<li>6.namespace Weicot\Base\View                      //视图基类</li>
+<li>7.namespace Weicot\Base\View                      //基类<blockquote>
+<pre><code>    将模板压入数组
+    $this-&gt;template[] = array(                      //可同时设置多个模板
+     &quot;blockName&quot; =&gt; &quot;Base.Header&quot;,   //Weicot/Base/Block
+     &quot;templatePath&quot; =&gt; &quot;Base/View/Header&quot;,           // Base/View/Header.phtml
+     );
+</code></pre><ul>
+<li>8.二级调用
+&quot;blockName&quot; =&gt; &quot;Base.Header.Function.Value&quot;,
+Weicot/Base/Block::Header-&gt;Function(Value)</li>
+<li>9.View 可以在模板文件中以块级单位调用
+使用 View 中的 createBlock 进行创建</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="12-涉及的开源项目">12 涉及的开源项目</h3>
+<p><strong>前端主要使用的开源项目  layui</strong></p>
+<ul>
+<li><a href="https://www.layui.com/" title="layui" target="_blank">layui</a></li>
+<li><a href="https://www.layui.com/doc/" title="layui 文档" target="_blank">layui 文档</a></li>
+</ul>
+<p><strong>后端经常使用的ORM  thinkphp-5 orm</strong></p>
+<ul>
+<li><a href="https://github.com/top-think/think-orm" title="think-orm" target="_blank">think-orm</a></li>
+<li><a href="https://www.kancloud.cn/manual/think-orm/1257998" title="think-orm 文档" target="_blank">think-orm 文档</a></li>
+</ul>
+<p><strong>WeiCot Framework 作者官网</strong></p>
+<ul>
+<li><a href="http://www.weicot.com/" title="weicot.com" target="_blank">weicot.com</a></li>
+</ul>
+
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		<a href="框架的目录结构说明.html" class="navigation navigation-prev " aria-label="Previous page: 框架的目录结构说明">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		
+		
+		<a href="框架的前端模板开发和切换.html" class="navigation navigation-next " aria-label="Next page: 框架的前端模板开发和切换">
+			<i class="fa fa-angle-right"></i>
+		</a>
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"如何手动创建一个模块以Cms为例","level":"2.5","depth":1,"next":{"title":"框架的前端模板开发和切换","level":"2.6","depth":1,"path":"框架的前端模板开发和切换.md","ref":"框架的前端模板开发和切换.md","articles":[]},"previous":{"title":"框架的目录结构说明","level":"2.4","depth":1,"path":"框架的目录结构说明.md","ref":"框架的目录结构说明.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","sitemap-general","search-pro","theme-fexa","back-to-top-button"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"search-pro":{},"theme-fexa":{"search-placeholder":"输入关键字搜索","logo":"https://soft.weicot.com/skin/frontend/images/logo3.png","favicon":"./favicon.ico"},"sitemap-general":{"prefix":"https://soft.weicot.com/doc/dev/"},"fontsettings":{"theme":"white","family":"sans","size":2},"structure":{"readme":"README.md"},"highlight":{},"back-to-top-button":{},"links":{"sidebar":{"作者博客":"http://www.weicot.com/"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"ajing","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeFexa":{"nav":[{"url":"/","name":"首页"},{"url":" /doc/about/index.html","name":"关于我们"},{"url":"/doc/product/index.html","name":"提供的产品"},{"url":"/doc/service/index.html","name":"定制开发和服务"},{"url":"/doc/help/index.html","name":"快速帮助文档"},{"url":"/doc/edzdoc/index.html","name":"使用手册"},{"url":" /doc/dev/index.html","name":"开发指导手册"},{"url":"http://www.weicot.com/","target":"_blank","name":"作者博客"}]}},"title":"易定制供应链服务系统","language":"zh-hans","gitbook":"3.2.3","description":"易定制供应链服务系统开发文档系列 类似于指纹定制ERP,飞飞鱼ERP,spreadshirt ERP,zazzle"},"file":{"path":"如何手动创建一个模块以Cms为例.md","mtime":"2020-11-30T09:31:06.373Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-23T02:01:03.448Z"},"basePath":".","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+

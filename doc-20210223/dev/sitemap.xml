@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://soft.weicot.com/doc/dev/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/框架的nginx或Apache规则配置文件.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/基础配置文件说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/框架的目录结构说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/如何手动创建一个模块以Cms为例.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/框架的前端模板开发和切换.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/dev/一些Class和Function说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

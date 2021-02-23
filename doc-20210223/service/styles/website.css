@@ -1,0 +1,8 @@
+.header-inner .logo {
+    float: left;
+    height: 50px;
+    width: 120px;
+    background: url('/skin/frontend/images/logo3.png');
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+}

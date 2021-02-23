@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://soft.weicot.com/doc/service/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/版本申明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/概述.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/体系结构.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/用户基础操作界面以及功能说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/注册登录.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/账号管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/产品管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/图库管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/设计相关.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/刊登.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/订单处理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/供应管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/数据管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/用户端/系统相关.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/管理端部分功能及操作界面说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/产品-分类-设计用模板.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/刊登-导出规则.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/设计器相关.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/图库管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/订单-供应管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/统计数据.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/账户-账号管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/service/管理端/系统配置相关.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

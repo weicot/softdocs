@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://soft.weicot.com/doc/help/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/关于本系统的信息以及插件等.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/系统中表格弹窗等使用说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/关于内部工单系统的使用等.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/添加产品或图库分类.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/首页功能区说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/在系统中添加或导入产品.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/图片的上传和管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/图库的多标签管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/添加和管理产品设计模板.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/添加和管理导出基本数据适配规则.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/设计你的产品.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/设计器支持和合成的效果图.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/将产品刊登到第三方电商平台.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/导入亚马逊平台的产品导入表格.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/制作产品导出数据模板.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/导出设计产品后图片同步失败问题.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/UPC-EAN设置.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/将多个产品设计聚合成一个产品.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/导入第三方平台订单.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/订单的处理界面说明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/业务员订单处理流程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/黑名单管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/我的工单发起和查看等.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/订单汇总.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/采购汇总.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/组长或管理员的工单处理流程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/查看出单产品.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/无效订单或死单统计.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/添加供应商.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/供应订单的处理流程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/采购订单管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/设计订单的处理以及管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/异常订单管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/待退款订单管理.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/关于主体订单.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/旧版的生产订单概览.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/查看所有店铺业绩.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/查看所有业务员业绩.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/账户的管理分组和角色分配.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/添加电商平台店铺信息.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/设置系统的汇率翻译支持等.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/旧版亚马逊采集系统.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://soft.weicot.com/doc/help/本系统的部署和环境要求.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

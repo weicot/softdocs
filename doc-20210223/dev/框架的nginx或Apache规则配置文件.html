@@ -1,0 +1,436 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>框架的nginx或Apache规则配置文件 · 易定制供应链服务系统</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="ajing">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="基础配置文件说明.html" />
+    
+    
+
+    </head>
+    <body>
+        
+
+
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			<li>
+				<a href="/" target="">首页</a>
+			</li><li>
+				<a href=" /doc/about/index.html" target="">关于我们</a>
+			</li><li>
+				<a href="/doc/product/index.html" target="">提供的产品</a>
+			</li><li>
+				<a href="/doc/service/index.html" target="">定制开发和服务</a>
+			</li><li>
+				<a href="/doc/help/index.html" target="">快速帮助文档</a>
+			</li><li>
+				<a href="/doc/edzdoc/index.html" target="">使用手册</a>
+			</li><li>
+				<a href=" /doc/dev/index.html" target="">开发指导手册</a>
+			</li><li>
+				<a href="http://www.weicot.com/" target="_blank">作者博客</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    WeiCot Framework 快速开发教程 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">快速入门</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="http://www.weicot.com/centos7mysqlmariadbsendmailnginxphp-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba%e4%b8%80%e6%9d%a1%e9%be%99/">
+            
+                    
+                    服务器环境搭建教程(站外)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="框架的nginx或Apache规则配置文件.html">
+            
+                <a href="框架的nginx或Apache规则配置文件.html">
+            
+                    
+                    框架的nginx或Apache规则配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="基础配置文件说明.html">
+            
+                <a href="基础配置文件说明.html">
+            
+                    
+                    基础配置文件说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="框架的目录结构说明.html">
+            
+                <a href="框架的目录结构说明.html">
+            
+                    
+                    框架的目录结构说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="如何手动创建一个模块以Cms为例.html">
+            
+                <a href="如何手动创建一个模块以Cms为例.html">
+            
+                    
+                    如何手动创建一个模块以Cms为例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="框架的前端模板开发和切换.html">
+            
+                <a href="框架的前端模板开发和切换.html">
+            
+                    
+                    框架的前端模板开发和切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="一些Class和Function说明.html">
+            
+                <a href="一些Class和Function说明.html">
+            
+                    
+                    一些Class和Function说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >框架的nginx或Apache规则配置文件</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="框架的nginx或apache规则配置文件推荐使用nginx">框架的nginx或Apache规则配置文件(推荐使用Nginx)</h1>
+<h5 id="weicot-framework--快速开发教程--wwwweicotcom">WeiCot Framework  快速开发教程 -www.weicot.com</h5>
+<h3 id="nginx-环境配置文件-以lnmp-为例">Nginx 环境配置文件 以lnmp 为例</h3>
+<h3 id="nginx-下-weicot-framework主配置文件--etcnginxweicotframeworkconf">nginx 下 WeiCot Framework主配置文件  /etc/nginx/WeiCotFramework.conf</h3>
+<pre><code>location / {
+        index index.html index.php; ## Allow a static html file to be shown first
+        try_files $uri $uri/ @handler; ## If missing pass the URI to WeiCot-Framework&apos;s front handler
+        expires 30d; ## Assume all files are cachable
+    }
+
+    ## These locations would be hidden by .htaccess normally
+    location /app/                { deny all; }
+    location /vendor/             { deny all; }
+    location /lib/                { deny all; }
+    location /bin/                { deny all; }
+    location /media/downloadable/ { deny all; }
+    location /pkginfo/            { deny all; }
+    location /report/config.xml   { deny all; }
+    location /var/                { deny all; }
+
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           &quot;Restricted&quot;; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+      location  /. { ## Disable .htaccess and other hidden files
+        return 404;
+    }
+
+    location @handler { ## WeiCot Framework uses a common front handler
+        rewrite / /index.php;
+    }
+
+    location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+</code></pre><h4 id="lnmp--下-weicot-framework-虚拟配置文件位置---etcnginxvhostwfconf">lnmp  下 WeiCot Framework 虚拟配置文件位置   /etc/nginx/vhost/wf.conf</h4>
+<pre><code>server
+    {
+        listen 80;
+        #listen [::]:80;
+        server_name wf.weicot.com;
+        index index.html index.htm index.php default.html default.htm default.php;
+        root  /home/wwwroot/wf;
+
+        include WeiCotFramework.conf;
+        #error_page   404   /404.html;
+        include enable-php.conf;
+
+        location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+        {
+            expires      30d;
+        }
+
+        location ~ .*\.(js|css)?$
+        {
+            expires      12h;
+        }
+
+        location ~ /\.
+        {
+            deny all;
+        }
+
+        access_log  /home/wwwlogs/wf.weicot.log;
+    }
+</code></pre><h3 id="apache-规则配置文件">Apache 规则配置文件</h3>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">IfModule</span> <span class="hljs-attr">mod_rewrite.c</span>&gt;</span>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+<span class="hljs-tag">&lt;/<span class="hljs-name">IfModule</span>&gt;</span>
+</code></pre>
+
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		
+		<a href="基础配置文件说明.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 基础配置文件说明">
+			<i class="fa fa-angle-right"></i>
+		</a>
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"框架的nginx或Apache规则配置文件","level":"2.2","depth":1,"next":{"title":"基础配置文件说明","level":"2.3","depth":1,"path":"基础配置文件说明.md","ref":"基础配置文件说明.md","articles":[]},"previous":{"title":"服务器环境搭建教程(站外)","level":"2.1","depth":1,"url":"http://www.weicot.com/centos7mysqlmariadbsendmailnginxphp-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba%e4%b8%80%e6%9d%a1%e9%be%99/","ref":"http://www.weicot.com/centos7mysqlmariadbsendmailnginxphp-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba%e4%b8%80%e6%9d%a1%e9%be%99/","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","sitemap-general","search-pro","theme-fexa","back-to-top-button"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"search-pro":{},"theme-fexa":{"search-placeholder":"输入关键字搜索","logo":"https://soft.weicot.com/skin/frontend/images/logo3.png","favicon":"./favicon.ico"},"sitemap-general":{"prefix":"https://soft.weicot.com/doc/dev/"},"fontsettings":{"theme":"white","family":"sans","size":2},"structure":{"readme":"README.md"},"highlight":{},"back-to-top-button":{},"links":{"sidebar":{"作者博客":"http://www.weicot.com/"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"ajing","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeFexa":{"nav":[{"url":"/","name":"首页"},{"url":" /doc/about/index.html","name":"关于我们"},{"url":"/doc/product/index.html","name":"提供的产品"},{"url":"/doc/service/index.html","name":"定制开发和服务"},{"url":"/doc/help/index.html","name":"快速帮助文档"},{"url":"/doc/edzdoc/index.html","name":"使用手册"},{"url":" /doc/dev/index.html","name":"开发指导手册"},{"url":"http://www.weicot.com/","target":"_blank","name":"作者博客"}]}},"title":"易定制供应链服务系统","language":"zh-hans","gitbook":"3.2.3","description":"易定制供应链服务系统开发文档系列 类似于指纹定制ERP,飞飞鱼ERP,spreadshirt ERP,zazzle"},"file":{"path":"框架的nginx或Apache规则配置文件.md","mtime":"2020-11-30T09:31:44.616Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-23T02:01:03.448Z"},"basePath":".","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+
